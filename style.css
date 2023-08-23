@@ -1,0 +1,220 @@
+/* this is index section */
+
+h1 {
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  margin-top: 15%;
+  margin-left: 15%;
+}
+body {
+  background-image: url("/img/myphoto2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nostyle {
+  all: unset;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #333;
+  color: white;
+  text-align: right;
+  font-style: italic;
+  padding: 10px;
+}
+.footer {
+  margin-top: 300px;
+}
+
+.paragraph {
+  font-family: "Arial", sans-serif;
+  margin-left: 15%;
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(125, 123, 123);
+}
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  fill: #333333;
+}
+.first {
+  margin-left: 15%;
+}
+
+nav {
+  background-color: #333;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* This is resume section */
+h2 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  color: rgb(65, 64, 64);
+  text-align: center;
+}
+h3 {
+  color: rgb(65, 64, 64);
+  margin-left: 50px;
+}
+h4 img {
+  display: inline-block;
+  vertical-align: middle;
+}
+h4 {
+  display: inline-block;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  position: relative;
+  padding-left: 50px;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  height: 100%;
+  border-left: 2px solid rgb(11, 160, 235);
+}
+.information {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.left {
+  float: left;
+  width: 100%;
+  font-weight: bold;
+  color: rgb(11, 160, 235);
+}
+.right {
+  font-weight: bold;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.right-column {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+}
+.full-width {
+  clear: both;
+}
+
+/* This is curriculum section */
+.photo {
+  width: 100px;
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: flex-start;
+}
+.width {
+  white-space: nowrap;
+}
+
+#search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  font-size: 16px;
+  width: 200px;
+}
+
+#search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  width: 150px;
+}
+
+.displaycontainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.display1 {
+  display: inline-block;
+  margin-left: 50px;
+}
+.display2 {
+  margin-right: 50px;
+  float: right;
+}
